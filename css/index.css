@@ -1,7 +1,6 @@
 .home {
   background-image: url(../img/home-背景.jpg);
   background-size: 100% auto;
-
   background-repeat: no-repeat;
   /* overflow: hidden; */
 }
