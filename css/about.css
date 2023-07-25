@@ -1,0 +1,506 @@
+.about {
+  background-image: url(../img/about/頁頭照片.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.paperback {
+  background-image: url(../img/about/紙背景.png);
+  background-size: 100% auto;
+
+  position: relative;
+  margin-top: -11.57%;
+  z-index: 2;
+  padding-top: 15.3%;
+}
+
+h2 {
+  font-family: "Noto Serif TC", serif;
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+p {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/**---------------- 頁首區---------------- */
+
+/* *導覽列 */
+
+header {
+  width: 100%;
+  margin: auto;
+}
+nav {
+  /* position: fixed; */
+  /* z-index: 5; */
+  /* margin: auto; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 1.2%;
+  background-image: linear-gradient(to top, transparent 20%, rgba(39, 37, 37, 0.486));
+}
+
+/* *LOGO */
+
+.nav-logo {
+  width: 3%;
+  margin-left: 18%;
+}
+.nav-logo img {
+  width: 100%;
+}
+
+/* *選單 */
+
+.nav-menu {
+  width: 50%;
+  margin-left: 2%;
+}
+.nav-menu-list {
+  display: flex;
+  gap: 6%;
+}
+.nav-menu-list-item a {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/*  *會員購物車  */
+
+.nav-member {
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-member-login {
+  /* border: 2px solid red; */
+  margin-left: 10%;
+}
+
+.nav-member-login a {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 5px 20px;
+  width: 100%;
+}
+.nav-member-shop {
+  /* border: 2px solid red; */
+  width: 14%;
+  margin-right: 15%;
+}
+.nav-member-shop img {
+  width: 100%;
+}
+
+/* *頁頭標題 */
+
+.logo-font {
+  margin: auto;
+  width: 25%;
+  margin-top: 60px;
+  margin-bottom: 15%;
+}
+.logo-font img {
+  width: 100%;
+}
+
+/**---------------- 關於店區---------------- */
+
+.aboutlinda {
+  /* border: 2px solid blue; */
+  background-color: #f5f3ee;
+  width: 87.9%;
+  margin: auto;
+  border-radius: 24px 24px 0px 0px;
+  padding-left: 6%;
+  box-sizing: border-box;
+}
+
+.aboutlinda article {
+  display: flex;
+  justify-content: center;
+}
+.ablin-dec {
+  /* border: 2px solid blue; */
+  width: 33%;
+  margin-right: 2%;
+}
+
+.ablin-dec-flower {
+  /* border: 2px solid red; */
+  /* width: 470px; */
+}
+
+.ablin-dec-flower img {
+  width: 100%;
+  position: relative;
+  top: -14px;
+}
+.ablin-dec-mach {
+  margin-top: 6%;
+}
+
+.ablin-dec-mach img {
+  width: 100%;
+}
+
+.ablin-txt {
+  /* border: 2px solid red; */
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ablin-txt h1 {
+  font-family: "Noto Serif TC", serif;
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.ablin-txt p {
+  margin-top: 8%;
+  color: #333;
+  text-align: center;
+  font-family: Noto Sans TC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.ablin-cup {
+  /* border: 2px solid blue; */
+  width: 38%;
+}
+.ablin-cup img {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 300px;
+}
+
+.ablin-dec-stick {
+  position: absolute;
+  width: 3.2%;
+  bottom: -150px;
+  left: 182px;
+}
+
+.ablin-dec-stick img {
+  width: 100%;
+}
+
+/**----------------店長介紹區---------------- */
+
+.leader {
+  background: rgb(245, 226, 1);
+  background: linear-gradient(180deg, rgba(245, 226, 1, 1) 0%, rgba(245, 226, 1, 0) 100%);
+  border-radius: 5px;
+  width: 40%;
+  margin: auto;
+  margin-top: 13%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -90px;
+  box-sizing: border-box;
+
+}
+
+.leader-pic {
+}
+
+.leader-pic img {
+}
+
+
+
+.leader-txt{
+  width: 65%;
+  margin-top: 4%;
+  padding-left: 25%;
+  margin-bottom: 15%;
+}
+
+
+.leader-name p{
+  font-family: "Noto Serif TC", serif;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.leader-name {
+background-color: #f5f3ee;
+border-radius: 5px;
+width: 259px;
+height: 62px;
+margin-top: -8px;
+margin-left: 9.5%;
+padding: 15px 0px 0px 45px;
+box-sizing: border-box;
+}
+.leader-name span{
+ 
+  font-family: "Noto Serif TC", serif;
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+
+
+.leader-txt{
+
+}
+
+
+.leader-txt p{
+ 
+  color: #333;
+  font-family: Noto Sans TC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.leader-pic{
+position: absolute;
+left:-42%;
+top: -6%;
+width: 55%;
+}
+
+.leader-pic img{
+  width: 100%;
+}
+
+
+
+.leader-dec{
+position: absolute;
+width: 35%;
+right: -25%;
+top:-32%;
+}
+
+.leader-dec img{
+  width: 100%;
+}
+
+
+/**---------------- 室內介紹區---------------- */
+
+.indoor{
+  background: rgb(245,243,238);
+  background: linear-gradient(180deg, rgba(245,243,238,1) 35%, rgba(237,224,212,1) 35%);
+width: 87.9%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  
+  
+}
+.indoor-large{
+  margin-top: 5%;
+}
+.indoor-large img{
+
+}
+.indoor-table{
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+.indoor-window{
+width: 45%;
+}
+
+.indoor-window img{
+  width: 100%;
+}
+
+.indoor-coffee{
+  margin-top: 12%;
+  width: 45%;
+}
+
+.indoor-coffee img{
+  width: 100%;
+}
+
+
+
+
+/* *-----------頁尾-----------*/
+
+footer {
+  background-image: url(../img/footer-背景.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+
+  margin: auto;
+  padding-top: 20%;
+  padding-bottom: 6%;
+  gap: 50px;
+}
+
+/* *頁尾左邊 */
+
+.foot-con-time {
+  /* border: 2px solid red; */
+}
+.foot-con-phone {
+  /* border: 2px solid red; */
+}
+.foot-con-tm-title {
+  margin-bottom: 12px;
+}
+.foot-con-ph-title {
+  margin-bottom: 12px;
+}
+.footer-container span {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer-container p {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* *頁尾logo */
+
+.foot-con-logo {
+  /* border: 2px solid red; */
+
+  width: 260px;
+  margin: 0px 30px;
+}
+
+.foot-con-logo img {
+  width: 100%;
+}
+
+/* *頁尾右邊 */
+
+.foot-con-list {
+  /* border: 2px solid red; */
+  width: 355px;
+}
+.foot-con-li-menu {
+  display: flex;
+  gap: 37px;
+}
+.foot-con-li-menu a {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.foot-con-li-sns {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 12px 0px;
+}
+.foot-con-li-sns li {
+  width: 5%;
+  min-width: 30px;
+}
+.foot-con-li-sns img {
+  width: 100%;
+}
+
+.news-page-number {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+
+.foot-con-li-tibame p {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #ffffff;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1280px) {
+  /**---------------- 頁首區---------------- */
+
+  /* *導覽列 */
+
+  .nav-menu-list-item a {
+    font-size: 10px;
+    margin-left: 80%;
+  }
+
+  .nav-member-login {
+    margin-left: -28%;
+  }
+  .nav-member-shop {
+    margin-right: 55%;
+  }
+
+  /**---------------- 區---------------- */
+  .ablin-txt h1 {
+    font-size: 20px;
+  }
+  .ablin-txt p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
