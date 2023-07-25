@@ -310,10 +310,7 @@ nav {
 
   gap: 5%;
 }
-.new-card ul li {
-  /* border: 2px solid red; */
-  /* width: 25%; */
-}
+
 .new-card ul li:nth-child(1) {
   background-image: url(../img/衣索比亞卡片.png);
   background-repeat: no-repeat;
@@ -422,12 +419,6 @@ footer {
 
 /* *頁尾左邊 */
 
-.foot-con-time {
-  /* border: 2px solid red; */
-}
-.foot-con-phone {
-  /* border: 2px solid red; */
-}
 .foot-con-tm-title {
   margin-bottom: 12px;
 }
